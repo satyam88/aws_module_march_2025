@@ -26,3 +26,9 @@ resource "aws_instance" "myinstance" {
   ami           = data.aws_ami.amazon-linux-3.id
   instance_type = var.instance_type
 }
+
+resource "aws_instance" "myinstance01" {
+  ami           = data.aws_ami.amazon-linux-3.id
+  instance_type = var.instance_type
+}
+
